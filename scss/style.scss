@@ -291,16 +291,18 @@ footer {
 }
 
 .container {
-  width: 95%;
+  width: 80%;
   margin: 0.5rem auto;
 }
 
 .contact-content {
   display: flex;
   flex-direction: column;
+
   a {
     @include deskstop {
       max-width: 100%;
+      justify-content: center;
     }
 
     img {
